@@ -1,8 +1,10 @@
 # DUSTLINE — Tactical Strike
 
-[![make.fun](https://img.shields.io/badge/make.fun-threejs--fps--02-f0a830)](https://make.fun/bounty/threejs-fps-02)
+[![make.fun · threejs-fps-02](https://make.fun/badge/threejs-fps-02.svg)](https://make.fun/bounty/threejs-fps-02?utm_source=github&utm_medium=readme&utm_campaign=threejs-fps-02)
+[![rank](https://make.fun/badge/threejs-fps-02/ndamario2/threejs-fps-02/rank.svg)](https://make.fun/bounty/threejs-fps-02/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=threejs-fps-02)
+[![reward](https://make.fun/badge/threejs-fps-02/ndamario2/threejs-fps-02/reward.svg)](https://make.fun/bounty/threejs-fps-02?utm_source=github&utm_medium=readme&utm_campaign=threejs-fps-02)
 [![three.js](https://img.shields.io/badge/three.js-0.187.0-2e7f7a)](https://threejs.org/)
-[![owner](https://img.shields.io/badge/owner-cyeez1-35b6a8)](https://github.com/cyeez1)
+[![owner](https://img.shields.io/badge/owner-ndamario2-35b6a8)](https://github.com/ndamario2)
 
 A round-based tactical FPS in three.js. Five Vanguard attackers — you and four bot
 squadmates — push a desert freight yard at dusk against five Sentinel defenders.
@@ -30,23 +32,23 @@ node serve.ts
 ## The game
 
 - **Rounds** — 12 s buy phase, 100 s live round, first to 5 wins (MR9). Win $3250,
-  lose $1900, kill $300. Start $800.
+lose $1900, kill $300. Start $800.
 - **Objective** — you carry the spike. Plant it at Silo or Depot (hold E, 3.5 s);
-  the 35 s fuse then decides the round. If you die, the spike drops — a teammate
-  picks it up by walking over it. Defenders defuse (5 s) to steal the round.
+the 35 s fuse then decides the round. If you die, the spike drops — a teammate
+picks it up by walking over it. Defenders defuse (5 s) to steal the round.
 - **Guns** — P9 Sidearm (free), Rattler SMG ($1500), Longshot Rifle ($2700), frag
-  grenade ($300), body armour ($650). Hitscan with headshot bonus (rifle headshot
-  is a one-tap), recoil and spread that punish firing on the move, bloom on
-  sustained fire.
+grenade ($300), body armour ($650). Hitscan with headshot bonus (rifle headshot
+is a one-tap), recoil and spread that punish firing on the move, bloom on
+sustained fire.
 - **Bots** — 9 bots on a waypoint graph: attackers push a site and plant,
-  defenders hold, rotate on gunfire they hear, and rush a planted site to defuse.
-  Line of sight, reaction delays, burst fire, accuracy that falls off with
-  distance and target speed.
+defenders hold, rotate on gunfire they hear, and rush a planted site to defuse.
+Line of sight, reaction delays, burst fire, accuracy that falls off with
+distance and target speed.
 - **Map** — an original 44 × 30 m freight yard: central silo, container lanes,
-  two bomb sites, dusk lighting in a sand / terracotta / teal palette. No
-  borrowed maps, art, or names.
+two bomb sites, dusk lighting in a sand / terracotta / teal palette. No
+borrowed maps, art, or names.
 - **Feel** — tracers, muzzle flash, impact sparks, explosion, synthesised WebAudio
-  gunshots (no audio files), kill feed, round banners, plant/defuse channel bar.
+gunshots (no audio files), kill feed, round banners, plant/defuse channel bar.
 
 ## Build
 
